@@ -20,8 +20,7 @@
 
 @font-face {
    font-family: "JetBrains Mono";
-   src: url("JetBrainsMono-ExtraLightItalic.woff2") format("woff2"),
-      url("JetBrainsMono-ExtraLightItalic.woff") format("woff");
+   src: url("JetBrainsMono-ExtraLightItalic.woff2") format("woff2"), url("JetBrainsMono-ExtraLightItalic.woff") format("woff");
    font-weight: 200;
    font-style: italic;
    font-display: swap;
@@ -29,8 +28,7 @@
 
 @font-face {
    font-family: "JetBrains Mono";
-   src: url("JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"),
-      url("JetBrainsMono-ExtraBoldItalic.woff") format("woff");
+   src: url("JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"), url("JetBrainsMono-ExtraBoldItalic.woff") format("woff");
    font-weight: bold;
    font-style: italic;
    font-display: swap;
@@ -203,9 +201,7 @@ body {
 
 /*========================Figma========================*/
 
-h1,
-div p,
-.text {
+.main {
    font-family: "Lato";
 }
 
@@ -223,7 +219,7 @@ h1 {
    color: #1e212c;
 }
 
-div p {
+.regular {
    font-size: 16px;
    line-height: 1.6;
    color: #424551;
